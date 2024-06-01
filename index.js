@@ -16,7 +16,6 @@ app.get("/user" , async (req,res) => {
 app.get("/api" , async (req,res) => {
     await res.json("this is first api")
 })
-
 app.listen(8800 , (req,res) => {
     console.log("server is runing")
 })
