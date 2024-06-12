@@ -40,6 +40,6 @@ app.post("/pay", async (req,res) => {
      const result = await data.json()
      res.json(result)
   })
-app.listen(8800 , (req,res) => {
+app.listen(5500 , (req,res) => {
     console.log("server is runing")
 })
